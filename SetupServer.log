@@ -100,3 +100,5 @@ pi@raspberrypi:/etc/lighttpd $ sudo service lighttpd force-reload
 pi@raspberrypi:/etc/lighttpd $ sudo chown -R www-data:www-data /var/www
 pi@raspberrypi:/etc/lighttpd $ sudo chmod 775 /var/www
 pi@raspberrypi:/etc/lighttpd $ sudo usermod -a -G www-data pi
+pi@raspberrypi:/etc/lighttpd $ cd /var/www/html/
+pi@raspberrypi:/var/www/html $ sudo wget http://www.tinkernut.com/demos/360_cam/360_cam_server.tar.gz
